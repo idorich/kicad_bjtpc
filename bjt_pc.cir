@@ -1,0 +1,69 @@
+.title KiCad schematic
+R24 Net-_Q13-C_ Net-_Q15-B_ 1k
+Q13 __Q13
+R23 /VCC Net-_Q13-C_ 1k
+R25 /VCC /S 1k
+Q9 __Q9
+R15 /VCC Net-_Q9-C_ 1k
+R28 /CLK Net-_Q14-B_ 1k
+R29 /CLK Net-_Q12-B_ 1k
+Q16 __Q16
+R30 Net-_Q17-C_ Net-_Q16-B_ 1k
+R27 Net-_Q17-C_ Net-_Q13-B_ 1k
+R26 Net-_Q16-C_ Net-_Q11-B_ 1k
+R31 /VCC Net-_Q16-C_ 1k
+R35 /BUSi Net-_Q18-B_ 1k
+R36 /FeedBack Net-_Q20-B_ 1k
+R34 /VCC Net-_Q18-C_ 1k
+Q18 __Q18
+Q19 __Q19
+Q20 __Q20
+R37 /WE Net-_Q21-B_ 1k
+Q21 __Q21
+R38 /WE Net-_Q19-B_ 1k
+R18 /R Net-_Q9-B_ 1k
+R19 /S Net-_Q8-B_ 1k
+Q10 __Q10
+R21 /VCC /R 1k
+R22 /VCC Net-_Q11-C_ 1k
+R20 Net-_Q11-C_ Net-_Q10-B_ 1k
+Q12 __Q12
+Q11 __Q11
+R32 Net-_Q18-C_ Net-_Q17-B_ 1k
+Q14 __Q14
+Q15 __Q15
+R33 /VCC Net-_Q17-C_ 1k
+Q17 __Q17
+R14 /VCC Net-_Q8-C_ 1k
+R12 /VCC /DATA 1k
+R16 Net-_Q9-B_ Net-_Q8-C_ 1k
+R17 Net-_Q9-C_ Net-_Q8-B_ 1k
+Q7 __Q7
+R13 Net-_Q8-C_ Net-_Q7-B_ 1k
+Q8 __Q8
+R11 Net-_Q3-C_ Net-_Q2-B_ 1k
+Q2 __Q2
+R2 Net-_Q5-C_ Net-_Q1-B_ 1k
+Q1 __Q1
+R1 /VCC Net-_Q3-C_ 1k
+R8 /FeedBack /DATA 1k
+D1 /GND /LED LED
+R39 /AlwaysOn Net-_Q22-B_ 1k
+R9 /DATA /AlwaysOn 1k
+R10 /DATA /LED 1k
+R3 /VCC Net-_Q5-C_ 1k
+R6 /DATA Net-_Q5-B_ 1k
+Q6 __Q6
+Q5 __Q5
+Q3 __Q3
+R4 Net-_Q3-B_ /nOE 1k
+Q4 __Q4
+R5 /OE Net-_Q6-B_ 1k
+R7 /DATA Net-_Q4-B_ 1k
+J2 __J2
+Q22 __Q22
+Q23 __Q23
+R41 Net-_Q22-C_ Net-_Q23-B_ 1k
+R40 /VCC Net-_Q22-C_ 1k
+R42 /VCC /RAW 1k
+.end
