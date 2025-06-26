@@ -68,12 +68,12 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_f75555f5)
+			(layerselection 0x00000000_00000000_55555555_f75555ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
+			(usegerberextensions yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
 			(creategerberjobfile yes)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
@@ -87,7 +87,7 @@
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
-			(pdf_single_document yes)
+			(pdf_single_document no)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
 			(dxfusepcbnewfont yes)
@@ -99,12 +99,12 @@
 			(hidednponfab no)
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
-			(subtractmaskfromsilk no)
-			(outputformat 4)
+			(subtractmaskfromsilk yes)
+			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerbers/")
 		)
 	)
 	(net 0 "")
@@ -18337,6 +18337,20 @@
 		(layer "F.SilkS")
 		(uuid "482999de-93ae-47fb-b5f4-bfca7f4a991e")
 	)
+	(gr_poly
+		(pts
+			(xy 161.4736 108.121195) (xy 166.154183 108.097204) (xy 165.663548 107.376606) (xy 165.226976 107.027182)
+			(xy 164.598373 106.736133) (xy 163.83 106.620001) (xy 162.767928 106.846817) (xy 162.14756 107.237731)
+			(xy 161.796254 107.600163)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4c771091-8f81-41f0-ae9b-96ee5dd82e35")
+	)
 	(gr_line
 		(start 115 133)
 		(end 114.529524 133.658665)
@@ -19172,6 +19186,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "d6c07e1c-855c-4bcf-a1b6-47a9bb66b469")
+	)
+	(gr_poly
+		(pts
+			(xy 166.154183 110.342795) (xy 161.505817 110.342795) (xy 162.03 111.069998) (xy 165.629998 111.07)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d7cdf0f2-82cd-406a-971f-04cd59e900b4")
 	)
 	(gr_line
 		(start 174.890709 138.753006)
@@ -20297,8 +20323,8 @@
 	)
 	(gr_poly
 		(pts
-			(xy 173.99 115.57) (xy 173.99 132.08) (xy 173.99 132.08) (xy 187.96 132.08) (xy 189.23 130.81) (xy 189.23 113.03)
-			(xy 187.96 111.76) (xy 180.34 111.76) (xy 179.07 113.03) (xy 177.8 114.3) (xy 175.26 114.3)
+			(xy 173.99 115.57) (xy 173.99 132.08) (xy 173.99 132.08) (xy 187.96 132.08) (xy 189.611 130.429)
+			(xy 189.611 113.411) (xy 187.96 111.76) (xy 180.34 111.76) (xy 179.07 113.03) (xy 177.8 114.3) (xy 175.26 114.3)
 		)
 		(stroke
 			(width 0.6)
@@ -20516,7 +20542,7 @@
 		)
 	)
 	(gr_text "Buffer"
-		(at 184.15 122.555 90)
+		(at 184.15 122.555 270)
 		(layer "B.SilkS")
 		(uuid "0d920915-4b7d-4c95-a244-0641b34a6cf9")
 		(effects
@@ -20554,8 +20580,21 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "Headers"
+		(at 186.055 97.79 270)
+		(layer "B.SilkS")
+		(uuid "a089d284-fd7e-4165-93aa-cd5008bf0dd8")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "SR Latch"
-		(at 157.48 125.73 0)
+		(at 154.305 125.73 0)
 		(layer "B.SilkS")
 		(uuid "c828e313-82b6-4a1e-ac20-25b499858ad2")
 		(effects
@@ -20581,7 +20620,7 @@
 		)
 	)
 	(gr_text "TriState Buffer"
-		(at 153.67 101.6 0)
+		(at 152.4 101.6 0)
 		(layer "B.SilkS")
 		(uuid "ea967edb-9aa9-43bf-88e0-9e00134134ac")
 		(effects
