@@ -4,7 +4,9 @@
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "/GND"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -13,7 +15,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.17000000178813934
+      "zones": 0.10999999940395355
     },
     "selection_filter": {
       "dimensions": true,
@@ -49,11 +51,11 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_57ff5f70",
+    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
-    "repo_type": "",
+    "repo_type": "https",
     "repo_username": "",
     "ssh_key": ""
   },

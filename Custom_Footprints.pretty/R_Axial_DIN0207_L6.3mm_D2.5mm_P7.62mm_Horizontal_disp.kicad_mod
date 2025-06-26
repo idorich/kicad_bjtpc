@@ -17,8 +17,9 @@
 		)
 	)
 	(property "Value" "R"
-		(at 3.81 0 0)
+		(at 3.81 2.5 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "9f8d4919-6525-41fa-93bd-0a62d932cc42")
 		(effects
 			(font
@@ -51,8 +52,8 @@
 			)
 		)
 	)
-	(property "Display" ""
-		(at 3.81 -2.5 0)
+	(property "Display" "D"
+		(at 3.81 0 0)
 		(layer "F.SilkS")
 		(uuid "3bd44850-4f90-4296-84eb-0a14719f1adf")
 		(effects
